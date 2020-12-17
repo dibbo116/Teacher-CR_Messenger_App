@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Teacher_CR messenger app</string>
+    <string name="welcome">Welcome to Teacher-CR Messenger App</string>
+    <string name="signin">Sign In</string>
+    <string name="tsignup">Sign Up as Teacher</string>
+    <string name="ssignup">Sign up as Student</string>
+    <string name="newsignup">If you are new, Then Sign Up</string>
+    <string name="nacc">Create a New Account</string>
+    <string name="username">Username</string>
+
+
+    <string-array name="series">
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="section">
+        <item>A</item>
+        <item>B</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

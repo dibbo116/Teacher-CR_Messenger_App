@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7521ECFF"
+    android:layout_gravity="center"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="103dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/tcrapp1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/font"
+        android:textColor="#101010"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/signinbuttonid"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textColor="#101010"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/font"
+        android:text="@string/signin"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font"
+        android:text="@string/newsignup" />
+
+    <Button
+        android:id="@+id/teachersignupid"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/font"
+        android:textColor="#101010"
+        android:textSize="20dp"
+        android:text="@string/tsignup"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/studentsignupid"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/font"
+        android:textColor="#101010"
+        android:textSize="20dp"
+        android:text="@string/ssignup"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

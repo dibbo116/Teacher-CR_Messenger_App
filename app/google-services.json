@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "538641042273",
+    "firebase_url": "https://teachercr-messenger-app.firebaseio.com",
+    "project_id": "teachercr-messenger-app",
+    "storage_bucket": "teachercr-messenger-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538641042273:android:26e87e14d283082b22d320",
+        "android_client_info": {
+          "package_name": "com.example.teacher_crmessengerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538641042273-ffg71s4otiamr8qnevfub1mn8hi5qgnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teacher_crmessengerapp",
+            "certificate_hash": "f8c8d990ece08b971712d6c16ca262014a57ab88"
+          }
+        },
+        {
+          "client_id": "538641042273-fbvtaqfucqsb3f2btr6q6rbh1e6lnaek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwMu36W2VR9H5Nu5W463AnQmsWR_PUOtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538641042273-fbvtaqfucqsb3f2btr6q6rbh1e6lnaek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/bar_layout"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="-4dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font"
+                android:text="Login In your Account"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/semailaddressid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/font"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:textSize="25sp"
+                app:met_floatingLabel="normal" />
+
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/spasswordid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/font"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="25sp"
+                app:met_floatingLabel="normal" />
+            <Button
+                android:id="@+id/sloginbuttonid"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/font"
+                android:textSize="20dp"
+                android:text="Sign In"
+                android:layout_marginTop="30dp"/>
+
+            <ProgressBar
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/progressbarid"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

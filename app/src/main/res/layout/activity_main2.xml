@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <com.google.android.material.appbar.AppBarLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <androidx.appcompat.widget.Toolbar
+           android:id="@+id/toolbar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#2196F3"
+
+           app:popupTheme="@style/Menustyle">
+
+         <de.hdodenhof.circleimageview.CircleImageView
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             android:id="@+id/profile_image"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/username"
+               android:layout_marginLeft="25dp"
+               android:text="username"
+               android:textColor="#101010"
+               android:fontFamily="@font/font"
+               android:textStyle="bold"/>
+
+       </androidx.appcompat.widget.Toolbar>
+       <com.google.android.material.tabs.TabLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/tab_layout"
+           android:background="#2196F3"
+           app:tabSelectedTextColor="#000000"
+           app:tabIndicatorColor="#070707"
+           app:tabTextColor="#F7F9FA"/>
+
+
+   </com.google.android.material.appbar.AppBarLayout>
+    
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_pager"
+
+        app:layout_behavior= "@string/appbar_scrolling_view_behavior"/>
+
+</LinearLayout>
