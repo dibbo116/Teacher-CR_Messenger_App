@@ -62,7 +62,7 @@
                 android:textSize="20dp"
                 android:text="Sign In"
                 android:layout_marginTop="30dp"/>
-            
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
