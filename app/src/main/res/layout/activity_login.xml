@@ -62,7 +62,17 @@
                 android:textSize="20dp"
                 android:text="Sign In"
                 android:layout_marginTop="30dp"/>
-
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="Forget Your Password?"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/forget_password"/>
             <ProgressBar
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
@@ -70,6 +80,7 @@
                 android:visibility="gone"
                 android:id="@+id/progressbarid"
                 android:layout_gravity="center"/>
+
         </LinearLayout>
 
 

@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -24,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
     MaterialEditText email,password;
     Button btn_Login;
     FirebaseAuth auth;
+    TextView forget_password;
     private ProgressBar progressBar;
     private static final String TAG = LoginActivity.class.getSimpleName();
 
@@ -48,6 +50,13 @@ public class LoginActivity extends AppCompatActivity {
         password = findViewById(R.id.spasswordid);
         btn_Login = findViewById(R.id.sloginbuttonid);
         progressBar = findViewById(R.id.progressbarid);
+        forget_password = findViewById(R.id.forget_password);
+        forget_password.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this,ResetPasswordActivity.class));
+            }
+        });
         btn_Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
